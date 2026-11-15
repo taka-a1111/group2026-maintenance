@@ -1,4 +1,4 @@
-# Groupメンテナンス事務局Web（https://science-web.tokyo/maintenance-9）の初校を組むスクリプト
+# Groupメンテナンス事務局Web（https://science-web.tokyo/maintenance-g）の初校を組むスクリプト
 # 土台：taka-a1111/swc2026-maintenance ver1.1 の CSS とロゴ
 # 原稿：11.15 Gメンテナンス事務局Web.docx ＋ 11/15 14:45 瀧田様の回答
 import base64, re, sys, os
@@ -130,8 +130,8 @@ html = f"""<!DOCTYPE html>
 <meta property="og:site_name" content="サイエンスウェブ株式会社">
 <meta property="og:title" content="メンテナンス事務局｜サイエンスウェブ株式会社">
 <meta property="og:description" content="研究者の現在を守り、未来の研究活動を支える。サイエンスウェブは、ホームページの安全・安心・安定を継続的に支えます。">
-<meta property="og:url" content="https://science-web.tokyo/maintenance-9">
-<link rel="canonical" href="https://science-web.tokyo/maintenance-9">
+<meta property="og:url" content="https://science-web.tokyo/maintenance-g">
+<link rel="canonical" href="https://science-web.tokyo/maintenance-g">
 <meta name="twitter:card" content="summary">
 <style>{css}
 {add_css}</style>
